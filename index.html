@@ -7,39 +7,41 @@
 </head>
 
 <body>
-<h1 class="ttl">リアルタイムフィルター</h1>	
-<p class="ttl-txt">入力した文字を含まない要素は非表示になります</p>
-<input class="search" type="text" value="">
-
-<ul class="main">
-	<li class="main-box">
-		<img src="img/jiro.jpg">
-		<p class="key">キーワード</p>
-		<p>二郎系ラーメン<span>じろうけいらーめん</span><span>jirokeiramen</span></p>
-	</li>
-	<li class="main-box">
-		<img src="img/jiro.jpg">
-		<p class="key">キーワード</p>
-		<p><span></span><span></span></p>
-	</li>
-	<li class="main-box">
-		<img src="img/jiro.jpg">
-		<p class="key">キーワード</p>
-		<p><span></span><span></span></p>
-	</li>
-	<li class="main-box">
-		<img src="img/jiro.jpg">
-		<p class="key">キーワード</p>
-		<p><span></span><span></span></p>
-	</li>
-
-
-
-
-</ul>
-
-
-	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+	<div class="ttl-inner">
+		<h1 class="ttl">リアルタイムフィルター</h1>	
+		<p class="ttl-txt">入力した文字を含まない要素は非表示になります</p>
+		<input id="js-val-input" class="search" type="text" value="">
+	</div>
+	<ul class="main">
+		<li class="main-box">
+			<div class="main-inner">
+				<img src="img/jiro.jpg">
+				<p class="key">キーワード</p>
+				<p class="key-item js-val-key"><span>二郎系ラーメン</span><span>じろうけいらーめん</span><span>jirokeiramen</span></p>
+			</div>
+		</li>
+		<li class="main-box">
+			<div class="main-inner">
+				<img src="img/matadorl.jpg">
+				<p class="key">キーワード</p>
+				<p class="key-item js-val-key"><span>味噌ラーメン</span><span>みそらーめん</span><span>misoramen</span></p>
+			</div>
+		</li>
+		<li class="main-box">
+			<div class="main-inner">
+				<img src="img/takematutokyo.jpg">
+				<p class="key">キーワード</p>
+				<p class="key-item js-val-key"><span>鶏白湯ラーメン</span><span>とりぱいたんらーめん</span><span>toripaitanramen</span></p>
+			</div>
+		</li>
+		<li class="main-box">
+			<div class="main-inner">
+				<img src="img/tantan.JPG">
+				<p class="key">キーワード</p>
+				<p class="key-item js-val-key"><span>担々麺</span><span>たんたんめん</span><span>tantanmen</span></p>
+			</div>
+		</li>
+	</ul>
 	<script src="main.js"></script>
 </body>
 </html>

@@ -1,0 +1,42 @@
+.ttl-inner {
+    margin: 0 4%;
+}
+
+.ttl {}
+
+.ttl-txt {}
+
+.search {
+    width: 100%;
+    font-size: 20px;
+}
+
+.main {
+    list-style: none;
+    display: flex; 
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.main-inner {
+    padding: 3%;
+}
+
+img {
+    width: 100%;
+}
+
+.main-box {
+    width: 42%;
+    margin: 20px 4%;
+    border: 1px solid rgb(216, 215, 215); 
+    box-sizing: border-box;
+}
+
+.key {}
+
+.key-item {}
+
+.key-item span {
+    padding: 3px;
+}
